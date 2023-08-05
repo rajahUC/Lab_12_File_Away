@@ -42,7 +42,7 @@ public class Main
                 System.out.println("Data file read!");
 
                 System.out.println("\nSummary Report: ");
-                System.out.printf("Name of the file: %s", selectedFile);
+                System.out.printf("Name of the file: %s", selectedFile.getName());
                 System.out.println("\nNumber of lines: " + line);
 
                 String[] words;
